@@ -154,7 +154,7 @@ function send_bnes_recv_bner(
  * @return array A map of bnlr response fields returned from the
  *      NWNEE server
  */
-function nwnee_proto_bnlm_bnlr(
+function send_bnlm_recv_bnlr(
     $fp,
     $timeout_int   = 2,
     $read_size_int = 5000
